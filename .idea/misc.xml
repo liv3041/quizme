@@ -3,10 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ANDRIOD/quizme/app/src/main/res/drawable/back_btn.xml" value="0.1" />
+        <entry key="..\:/ANDRIOD/quizme/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/ANDRIOD/quizme/app/src/main/res/drawable/ic_user.xml" value="0.1" />
+        <entry key="..\:/ANDRIOD/quizme/app/src/main/res/layout/activity_game_over.xml" value="0.1" />
         <entry key="..\:/ANDRIOD/quizme/app/src/main/res/layout/activity_history.xml" value="0.1" />
         <entry key="..\:/ANDRIOD/quizme/app/src/main/res/layout/activity_login.xml" value="0.1" />
-        <entry key="..\:/ANDRIOD/quizme/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/ANDRIOD/quizme/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/ANDRIOD/quizme/app/src/main/res/layout/activity_question_load.xml" value="0.1" />
+        <entry key="..\:/ANDRIOD/quizme/app/src/main/res/layout/activity_quiz_genre.xml" value="0.1" />
+        <entry key="..\:/ANDRIOD/quizme/app/src/main/res/layout/activity_register.xml" value="0.2" />
+        <entry key="..\:/ANDRIOD/quizme/app/src/main/res/layout/genre_item.xml" value="0.1" />
+        <entry key="..\:/ANDRIOD/quizme/app/src/main/res/layout/history_item.xml" value="0.1" />
+        <entry key="..\:/ANDRIOD/quizme/app/src/main/res/layout/nav_header.xml" value="0.1" />
+        <entry key="..\:/ANDRIOD/quizme/app/src/main/res/menu/navigation_menu.xml" value="0.1" />
       </map>
     </option>
   </component>

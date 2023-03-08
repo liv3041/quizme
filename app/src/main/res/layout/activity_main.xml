@@ -8,6 +8,13 @@
     android:fitsSystemWindows="true"
     tools:openDrawer="start"
     android:id="@+id/drawerLayMA">
+    <com.google.android.material.navigation.NavigationView
+       android:id="@+id/navMenuMA"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/navigation_menu"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -32,6 +39,7 @@
             android:layout_margin="10dp"
             android:id="@+id/llMA">
             <ImageView
+                android:id="@+id/ivMainActivity"
                 android:layout_width="wrap_content"
                 android:layout_height="200dp"
                 android:src="@drawable/quiz_logo"
@@ -63,11 +71,27 @@
                     android:id="@+id/TotalScoreMA"/>
             </LinearLayout>
             <Button
+                android:id="@+id/btn_takeQuizMA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/teal_700"
+                android:text="@string/take_quiz"/>
+            <Button
+                android:id="@+id/btn_history"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:backgroundTint="@color/teal_700"
                 android:text="History"/>
+
+            <Button
+                android:id="@+id/btn_signoutMA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/teal_700"
+                android:text="@string/sign_out"/>
         </LinearLayout>
     </LinearLayout>
 

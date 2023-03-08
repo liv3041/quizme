@@ -33,6 +33,7 @@
         android:layout_marginTop="10dp"
         android:inputType="textVisiblePassword"/>
     <Button
+        android:id="@+id/btn_loginLA"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
        android:textSize="16sp"
@@ -44,5 +45,37 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        textSize
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn_registerLA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:backgroundTint="@color/teal_700"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/btn_forgotPasswordLA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/forgot_password"
+            android:textStyle="bold"
+            android:textSize="15.5sp"
+            android:backgroundTint="@color/teal_700"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/rl1LA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:padding="20dp"
+            />
+    </RelativeLayout>
 </LinearLayout>
